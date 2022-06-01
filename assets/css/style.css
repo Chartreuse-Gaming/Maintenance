@@ -42,16 +42,16 @@ main {
 }
 
 h1 {
-    font-size: 3.2em;
+    font-size: 3em;
     text-align: center;
     text-shadow: 0 10px 30px rgba(0, 0, 0, .8);
 }
 
 section {
-    border: 6px solid white;
+    border: 5px solid white;
     border-radius: 16px;
     background-color: rgba(0, 0, 0, .3);
-    padding: 16px 26px;
+    padding: 8px 26px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -61,11 +61,10 @@ section {
 }
 
 section a {
-    padding: 10px;
-    width: 60px;
-    height: 60px;
+    padding: 14px;
     transform: scale(1);
     transition: all .2s;
+    text-align: center;
 }
 
 section a:hover {
@@ -73,12 +72,18 @@ section a:hover {
 }
 
 section a > * {
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
 }
 
 canvas {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+@media only screen and (max-width: 850px) {
+    section a {
+        flex: 0 0 16%;
+    }
 }
