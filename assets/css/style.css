@@ -41,13 +41,13 @@ main {
     background-size: cover;
 }
 
-div {
+h1 {
     font-size: 3em;
     text-align: center;
     text-shadow: 0 10px 30px rgba(0, 0, 0, .8);
 }
 
-section {
+div {
     border: 5px solid white;
     border-radius: 16px;
     background-color: rgba(0, 0, 0, .3);
@@ -60,18 +60,18 @@ section {
     box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
 }
 
-section a {
+div a {
     padding: 14px;
     transform: scale(1);
     transition: all .2s;
     text-align: center;
 }
 
-section a:hover {
+div a:hover {
     transform: scale(1.1);
 }
 
-section a > * {
+div a > * {
     width: 36px;
     height: 36px;
 }
@@ -83,7 +83,7 @@ canvas {
 }
 
 @media only screen and (max-width: 850px) {
-    section a {
+    div a {
         flex: 0 0 16%;
     }
 }
