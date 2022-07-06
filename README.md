@@ -1,131 +1,122 @@
-<div align="center">
-
-  <img src="assets/img/chartreuse_gaming_logo.png" alt="logo" width="200" height="auto" />
-  <h1>Maintenance</h1>
-
-  <p>
-    Website maintenance page. 
-  </p>
-
-
-<!-- Badges -->
-<p>
-  <a href="https://github.com/Chartreuse-Gaming/Maintenance/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Chartreuse-Gaming/Maintenance" alt="contributors" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/Chartreuse-Gaming/Maintenance" alt="last update" />
-  </a>
-  <a href="https://github.com/Chartreuse-Gaming/Maintenance/issues/">
-    <img src="https://img.shields.io/github/issues/Chartreuse-Gaming/Maintenance" alt="open issues" />
-  </a>
-  <a href="https://github.com/Chartreuse-Gaming/Maintenance/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Chartreuse-Gaming/Maintenance.svg" alt="license" />
-  </a>
-</p>
-
-<h4>
-    <a href="https://chartreuse-gaming.github.io/Maintenance/">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/Chartreuse-Gaming/Maintenance/issues/">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/Chartreuse-Gaming/Maintenance/issues/">Request Feature</a>
-  </h4>
-</div>
-
+<div id="top"></div>
 <br />
 
-<!-- Table of Contents -->
+<div align="center">
+<a href="https://github.com/Chartreuse-Gaming/maintenance">
+    <img src="assets/img/chartreuse_gaming_logo.png" alt="Logo" width="160">
+</a>
 
-# :notebook_with_decorative_cover: Table of Contents
+<h3 align="center">Maintenance</h3>
 
-- [About the Project](#star2-about-the-project)
-    * [Tech Stack](#space_invader-tech-stack)
-    * [Features](#dart-features)
-    * [Color Reference](#art-color-reference)
-- [Getting Started](#toolbox-getting-started)
-    * [Installation](#gear-installation)
-    * [Deployment](#triangular_flag_on_post-deployment)
-- [License](#warning-license)
-- [Acknowledgements](#gem-acknowledgements)
+![Project license](https://img.shields.io/github/license/Chartreuse-gaming/maintenance?label=Licence)&nbsp;
+![Project size](https://img.shields.io/github/repo-size/chartreuse-gaming/maintenance?label=Repo%20size)&nbsp;
+![Last commit](https://img.shields.io/github/last-commit/Chartreuse-Gaming/Maintenance?label=Last%20commit)
 
-<!-- About the Project -->
+  <p align="center">
+    Website maintenance page of the Chartreuse Gaming association.
+    <br />
+    <a href="https://chartreusegaming.fr/"><strong>chartreusegaming.fr »</strong></a>
+  </p>
+</div>
+<br />
 
-## :star2: About the Project
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#tech-stack">Tech Stack</a></li>
+        <li><a href="#color-reference">Color Reference</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#run-locally">Run Locally</a></li>
+        <li><a href="#deployment">Deployment</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#feedback">Feedback</a></li>
+    <li><a href="#author">Author</a></li>
+  </ol>
+</details>
 
-<!-- Screenshots -->
+## About The Project
+
+Maintenance page of the Chartreuse Gaming association website with links to the different social networks.
 
 <div align="center"> 
-  <img src="assets/img/screenshot.png" alt="screenshot" />
+  <img src="assets/img/screenshot.png" alt="Maintenance page screenshot" />
 </div>
 
-
-<!-- TechStack -->
-
-### :space_invader: Tech Stack
-
-<ul>
-  <li>HTML</li>
-  <li>CSS</li>
-</ul>
-
-<!-- Features -->
-
-### :dart: Features
+### Features
 
 - Links to social networks
 - Gradient background with repeating text
 - Responsive Design
 
-<!-- Color Reference -->
+### Tech Stack
 
-### :art: Color Reference
+- HTML
+- CSS
 
-| Color                            | Hex                                                                    |
-|----------------------------------|------------------------------------------------------------------------|
-| Background Color left            | ![#0F0B3DFF](https://via.placeholder.com/10/0F0B3DFF?text=+) #0F0B3DFF |
-| Background Color right           | ![#173D09FF](https://via.placeholder.com/10/173D09FF?text=+) #173D09FF |
-| Background Text Primary Color    | ![#686868FF](https://via.placeholder.com/10/686868FF?text=+) #686868FF |
-| Background Text Secondary Color  | ![#23D940FF](https://via.placeholder.com/10/23D940FF?text=+) #23D940FF |
-| Text Color                       | ![#FFFFFFFF](https://via.placeholder.com/10/FFFFFFFF?text=+) #FFFFFFFF |
-| Social Networks Border Color     | ![#FFFFFFFF](https://via.placeholder.com/10/FFFFFFFF?text=+) #FFFFFFFF |
-| Social Networks Background Color | ![#0000004C](https://via.placeholder.com/10/0000004C?text=+) #0000004C |
+### Color Reference
 
-<!-- Getting Started -->
+| Color                            | Hex                                                                           | Description                         |
+|----------------------------------|-------------------------------------------------------------------------------|-------------------------------------|
+| Background Color left            | ![#0F0B3DFF](https://via.placeholder.com/8/0F0B3DFF/0F0B3DFF.png) `#0F0B3DFF` | Gradient color at left              |
+| Background Color right           | ![#173D09FF](https://via.placeholder.com/8/173D09FF/173D09FF.png) `#173D09FF` | Gradient color at right             |
+| Background Text Primary Color    | ![#686868FF](https://via.placeholder.com/8/686868FF/686868FF.png) `#686868FF` | Primary color for background text   |
+| Background Text Secondary Color  | ![#23D940FF](https://via.placeholder.com/8/23D940FF/23D940FF.png) `#23D940FF` | Secondary color for background text |
+| Text Color                       | ![#FFFFFFFF](https://via.placeholder.com/8/FFFFFFFF/FFFFFFFF.png) `#FFFFFFFF` | Text color                          |
+| Social Networks Border Color     | ![#FFFFFFFF](https://via.placeholder.com/8/FFFFFFFF/FFFFFFFF.png) `#FFFFFFFF` | Icon color                          |
+| Social Networks Background Color | ![#0000004C](https://via.placeholder.com/8/0000004C/0000004C.png) `#0000004C` | Icon background color               |
 
-## :toolbox: Getting Started
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Getting Started
 
 <!-- Installation -->
 
-### :gear: Installation
+### Run locally
 
-Install the maintenance page by cloning the git repo
+1. Clone the project
 
-```bash
-  git clone https://github.com/Chartreuse-Gaming/Maintenance/
-  cd Maintenance
+```shell
+  git clone https://github.com/Chartreuse-Gaming/maintenance
+  cd maintenance
 ```
 
-<!-- Deployment -->
+2. Open `index.html`.
 
-### :triangular_flag_on_post: Deployment
+### Deployment
 
-To deploy the project, simply point a virtual host of your web server ([Apache](https://httpd.apache.org/) or [NGINX](https://www.nginx.com/)) in the project folder.
+To deploy the project, simply point a virtual host of your web server ([Apache](https://httpd.apache.org/)
+, [NGINX](https://www.nginx.com/) or other web servers) in the project folder.  
 There is no specific configuration to set up.
 
-<!-- License -->
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## :warning: License
+## Roadmap
 
-Distributed under the GNU General Public License. See [LICENSE](https://github.com/Chartreuse-Gaming/Maintenance/blob/main/LICENSE) for more information.
+- [x] Add links
+- [x] Add custom background svg
+- [x] Responsive design
+- [x] Improve project size
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- Acknowledgments -->
+## Feedback
 
-## :gem: Acknowledgements
+If you have any feedback, please reach out to us at [ChartreuseGGaming@gmail.com](mailto:ChartreuseGGaming@gmail.com).
 
-- [SVG Repo](https://www.svgrepo.com/)
-- [Shields.io](https://shields.io/)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
-- [Readme Template](https://github.com/othneildrew/Best-README-Template)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Author
+
+[@Minarox](https://www.github.com/Minarox)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
