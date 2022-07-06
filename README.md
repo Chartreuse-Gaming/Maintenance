@@ -8,9 +8,11 @@
 
 <h3 align="center">Maintenance</h3>
 
+![Projet version](https://img.shields.io/github/v/release/chartreuse-gaming/maintenance?label=Version)&nbsp;
 ![Project license](https://img.shields.io/github/license/Chartreuse-gaming/maintenance?label=Licence)&nbsp;
 ![Project size](https://img.shields.io/github/repo-size/chartreuse-gaming/maintenance?label=Repo%20size)&nbsp;
 ![Last commit](https://img.shields.io/github/last-commit/Chartreuse-Gaming/Maintenance?label=Last%20commit)
+
 
   <p align="center">
     Website maintenance page of the Chartreuse Gaming association.
