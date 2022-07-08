@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.8 95.6">
+    <defs>
+        <filter id="a" width="50.3" height="42.8" x="28.5" y="28.2" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".2"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="b" width="78.8" height="95.6" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-opacity=".2"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="Logo SVG">
+        <g filter="url(#a)">
+            <path fill="#23d940" d="M69.8 59a57.7 57.7 0 0 1-32.3-24.8s7 9.4 25.5 11.4Z" data-name="Tracé 2"/>
+        </g>
+        <g filter="url(#b)">
+            <path fill="#fff"
+                  d="M69.8 6C25.8 6 9 25.1 9 25.1s11.8 45 60.8 58.5V61.9c-30-9.8-37-31.5-37-31.5s11.8-8.2 37-8.2Z"
+                  data-name="Tracé 1"/>
+        </g>
+    </g>
+</svg>
