@@ -3,7 +3,7 @@
 
 <div align="center">
 <a href="https://github.com/Chartreuse-Gaming/maintenance">
-    <img src="assets/img/chartreuse_gaming_logo.png" alt="Logo" width="160">
+    <img src="old/assets/img/chartreuse_gaming_logo.png" alt="Logo" width="160">
 </a>
 
 <h3 align="center">Maintenance</h3>
@@ -51,7 +51,7 @@
 Maintenance page of the Chartreuse Gaming association website with links to the different social networks.
 
 <div align="center"> 
-  <img src="assets/img/screenshot.png" alt="Maintenance page screenshot" />
+  <img src="old/assets/img/screenshot.png" alt="Maintenance page screenshot" />
 </div>
 
 ### Features
