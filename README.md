@@ -2,15 +2,15 @@
 <br />
 
 <div align="center">
-<a href="https://github.com/Chartreuse-Gaming/maintenance">
-    <img src="old/assets/img/chartreuse_gaming_logo.png" alt="Logo" width="160">
+<a href="https://github.com/Chartreuse-Gaming/Maintenance">
+    <img src="src/assets/svg/logo.svg" alt="Logo" width="80">
 </a>
 
 <h3 align="center">Maintenance</h3>
 
-![Projet version](https://img.shields.io/github/v/release/chartreuse-gaming/maintenance?label=Version)&nbsp;
-![Project license](https://img.shields.io/github/license/Chartreuse-gaming/maintenance?label=Licence)&nbsp;
-![Project size](https://img.shields.io/github/repo-size/chartreuse-gaming/maintenance?label=Repo%20size)&nbsp;
+![Projet version](https://img.shields.io/github/v/release/chartreuse-gaming/Maintenance?label=Version)&nbsp;
+![Project license](https://img.shields.io/github/license/Chartreuse-gaming/Maintenance?label=Licence)&nbsp;
+![Website size](https://img.shields.io/badge/Build%20size-2.98%20MB-blue)&nbsp;
 ![Last commit](https://img.shields.io/github/last-commit/Chartreuse-Gaming/Maintenance?label=Last%20commit)
 
 
@@ -36,6 +36,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#run-locally">Run Locally</a></li>
         <li><a href="#deployment">Deployment</a></li>
       </ul>
@@ -51,7 +52,7 @@
 Maintenance page of the Chartreuse Gaming association website with links to the different social networks.
 
 <div align="center"> 
-  <img src="old/assets/img/screenshot.png" alt="Maintenance page screenshot" />
+  <img src="src/assets/screenshot.webp" alt="Maintenance page screenshot" />
 </div>
 
 ### Features
@@ -62,8 +63,9 @@ Maintenance page of the Chartreuse Gaming association website with links to the 
 
 ### Tech Stack
 
-- HTML
-- CSS
+- [VueJS 3](https://vuejs.org/)
+- [Sass](https://sass-lang.com/)
+- [Vue-i18n](https://vue-i18n.intlify.dev/)
 
 ### Color Reference
 
@@ -81,33 +83,69 @@ Maintenance page of the Chartreuse Gaming association website with links to the 
 
 ## Getting Started
 
-<!-- Installation -->
+### Prerequisites
+
+- Install [NodeJS](https://nodejs.org/) with [npm](https://www.npmjs.com/)
+
+```bash
+  curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+  sudo apt-get install -y nodejs
+```
 
 ### Run locally
 
 1. Clone the project
 
-```shell
-  git clone https://github.com/Chartreuse-Gaming/maintenance
-  cd maintenance
+```bash
+  git clone https://github.com/Chartreuse-Gaming/Maintenance
+  cd website
 ```
 
-2. Open `index.html`.
+2. Install dependencies
+
+```bash
+  npm install
+```
+
+3. Start the server
+
+```bash
+  npm run serve
+```
+
+The server should start on [localhost:8080](http://localhost:8080/).
 
 ### Deployment
 
-To deploy the project, simply point a virtual host of your web server ([Apache](https://httpd.apache.org/)
-, [NGINX](https://www.nginx.com/) or other web servers) in the project folder.  
-There is no specific configuration to set up.
+To deploy this project run
+
+```bash
+  npm run build
+```
+
+A new `dist` folder will appear containing the entire compiled website.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Roadmap
 
+### v1
+
 - [x] Add links
 - [x] Add custom background svg
 - [x] Responsive design
 - [x] Improve project size
+
+### v2
+
+- [x] Migrate to [VueJS](https://vuejs.org/)
+- [x] Reduce build size
+- [x] Add translations
+- [x] [Sass](https://sass-lang.com/) CSS Preprocessor
+
+### v3
+- [ ] Migrate to [Astro](https://astro.build/)
+- [ ] Reduce build size
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
