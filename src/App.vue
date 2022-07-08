@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Nous revenons très bientôt...</h1>
+    <h1>{{ $t("back-soon") }}</h1>
     <div>
       <a href="https://discord.gg/invite/ENY2nV6" title="Discord">
         <img src="@/assets/svg/discord.svg" alt="Discord logo" />
